@@ -1,0 +1,208 @@
+/* Home */
+
+.home h1 {
+	text-align: center;
+	margin-top: 1em;
+
+
+}
+
+
+/* My Account */
+
+.password h2 {
+	text-align: center;
+	margin-top: 1em;
+}
+
+.password p {
+	font-size: 14px;
+}
+
+
+
+/* Users */
+
+.users h2 {
+	text-align: center;
+	margin-top: 1em;
+}
+
+.users p {
+	font-size: 14px;
+}
+
+.users .logouts a {
+	margin-right: 60px;
+}
+
+.users .regs .button {
+	margin-top: 15px;
+}
+
+.users .menu .searchee {
+		max-width: 412px;
+    	width: 88%;
+	}
+
+.users .tabs-panel {
+	position: relative;
+}
+
+
+
+
+/* Admin */
+
+.admin h2 {
+	text-align: center;
+	margin-top: 1em;
+}
+
+.admin p {
+	font-size: 14px;
+}
+
+.admin .resets a {
+		font-size: 0.7em;;
+	text-transform: uppercase;
+	}
+
+.admin label {
+	font-size: 0.7em;;
+	text-transform: uppercase;
+}
+
+.admin label {
+	font-size: 0.7em;;
+	text-transform: uppercase;
+}
+
+
+/* Admin */
+
+.resetpass h2 {
+	text-align: center;
+	margin-top: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 40em) {
+	.users .b1 {
+		display: none;
+	}
+
+	.users .b2 {
+		display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row; /* works with row or column */
+   flex-direction: row;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+	}
+
+	.users .b2 img {
+		width: 100%;
+		max-width: 320px;
+		display:block;
+		
+	}
+
+	.users .banner2 {
+		display: -webkit-flex;
+   		display: flex;
+   		-webkit-flex-direction: row; /* works with row or column */
+   		flex-direction: row;
+   		-webkit-align-items: center;
+   		align-items: center;
+   		-webkit-justify-content: center;
+   		justify-content: center;
+	}
+
+	.users .banner2 #bigbg {
+		display:none;
+	}
+
+	.users .banner2 #smallbg {
+		width: 100%;
+		max-width: 300px;
+		display:block;
+
+	}
+
+
+	.users .table1 {
+
+		display: none;
+	}
+
+	.users .table2 {
+
+		display: block;
+		margin-top: 1em;
+	}
+
+
+
+
+}
+
+@media only screen and (min-width: 64.063em) {
+
+	.users .b2 {
+		display: none;
+	}
+
+
+
+	.users .b1 img {
+		width: 100%;
+		max-width: 90px;
+		/*height: 100%;
+		min-height: 720px;*/
+		display:block;
+       float: right;
+	}
+
+
+	.users .banner2 #smallbg {
+		display:none;
+	}
+
+	.users .banner2 #bigbg {
+		width: 100%;
+		max-width: 600px;
+		display:block;
+	
+	}
+
+	.users .table1 {
+
+		display: block;
+		top: 5em;
+    	position: absolute;
+	}
+
+	.users .table2 {
+
+		display: none;
+	}
+
+	
+
+
+}
